@@ -1,0 +1,148 @@
+
+/*styles for the body*/
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Raleway", sans-serif
+}
+
+/* an attempt to resize a table upon screen resizing ... eeeeee! */
+
+
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+/* table that holds staffs images */
+#picture_table {
+ margin-left: auto;
+ margin-right: auto;
+ column-width: 290px;
+}
+#entire_staff_section { /* this is a div */
+ max-width: 100%;
+
+
+}
+
+/*this will edit all images*/
+img {
+  max-width: 100%;
+}
+
+
+/* column1 of the images */
+#column1{
+  width: 290px;
+}
+
+/* each cell object */
+td {
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* this is for all the table cells */
+#container_column {
+  width: 290px;
+}
+#cell_border {
+  width: 290px;
+  max-height: 100%;
+
+}
+
+#table_pic {
+  width: 490px;
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("logoblack.jpg");
+    min-height: 70%;
+
+}
+
+
+.w3-bar .w3-button {
+    padding: 10px;
+}
+
+/* upcoming events header */
+
+
+
+#upcoming_events_heading {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#events_div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+/* event pictures */
+
+#event_pic {
+  max-width: 100%;
+  max-height: 100%;
+  width: 400px;
+  height: 500px;
+}
+
+/* the below two are for the one staff picture above all the contact pics width */
+#staff_pic {
+  width: 400px; 
+  height: auto;
+  margin-bottom: 200px;
+  max-width: 100%;
+  
+}
+
+#staff_div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 100%; 
+}
+/* Want to get involved section */
+
+#get_involved_section_h {
+  text-align: center;
+}
+
+#get_involved_pic {
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+
+}
+
+
+
+ /* trying to style subheadings in staff titles and get rid of big gaps between words */
+
+ h5 {
+  color: grey;
+ }
+ h1, h2, h3, h4{
+  line-height: 15px; 
+ }
+ h6 {
+  line-height: 15px;
+ }
+
+
+

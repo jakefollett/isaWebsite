@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<title>Internation Student Association</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="pic/logo.jpg">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif;}
+body, html {
+  height: 100%;
+  color: white;
+  line-height: 1.8;
+  background-color: black; 
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url("pic/background.gif");
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+/*.bgimg-2 {
+  background-image: url("pic/background.gif");
+  min-height: 400px;
+}*/
+
+ /*Third image (Contact) 
+.bgimg-3 {
+  background-image: url("pic/IMG_7316.jpg");
+  min-height: 400px;
+}*/
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 800px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+  .logo{
+    width: 100%;
+    height: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small">ABOUT US</a>
+    <a href="https://www.facebook.com/pg/InternationalDuck/events/" class="w3-bar-item w3-button w3-hide-small">EVENTS</a>
+    <a href="https://ecommerce.uoregon.edu/order_form/asuo-international-student-association" target="_blank" class="w3-bar-item w3-button w3-hide-small">DONATION</a>
+    <a href="I-Week.html" class="w3-bar-item w3-button w3-hide-small">I-WEEK & NIGHT</a>
+    <a href="hall_of_fame.html" class="w3-bar-item w3-button w3-hide-small">HALL OF FAME</a>
+    
+    
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="about.html" class="w3-bar-item w3-button">ABOUT US</a>
+    <a href="https://www.facebook.com/pg/InternationalDuck/events/" class="w3-bar-item w3-button">EVENTS</a>
+    <a href="https://ecommerce.uoregon.edu/order_form/asuo-international-student-association" target="_blank" class="w3-bar-item w3-button">DONATION</a>
+    <a href="I-Week.html" class="w3-bar-item w3-button">I-WEEK & NIGHT</a>
+    <a href="hall_of_fame.html" class="w3-bar-item w3-button ">HALL OF FAME</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home"> 
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img class= "logo" src = "pic/logoblack.jpg" height = "170" width = "600"> 
+    <div style="text-align: center">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">HALL OF FAME
+      <!-- <span class="w3-h >ide-small">OF</span--> </span>
+    </div>
+  </div>
+
+</div>
+
+
+<style>
+#table_pic{
+  width: 260px;
+}
+/* Create three equal columns that floats next to each other */
+.column { /*total one clume width*/
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 10px;
+    
+}
+
+/* Clear floats after the columns */
+.row {
+ 
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+</style>
+  
+  
+<div class="bosy">
+  <div class="w3-row-padding" id="fame2">
+    <div style="text-align: center">
+      <h3>Executives</h3>
+      <p>President: Tang Ferng Yee</p>
+      <p>Vice President: Joanna Sun</p>
+      <p>Marketing: Cecilia Wong</p>
+      <p>Program: Rosemaire Wong/Joanna Sun</p>
+      <p>Finance: Ethen Shu</p>
+      <p>Outreach: Brian Sun</p>
+      <p>Secretary: Rosemaire Wong</p>
+    </div>
+  </div>
+<div class="w3-row-padding" id="fame2">
+    <div style="text-align: center">
+      <h3>Marketing Team</h3>
+      <p>Chiara Cheng</p>
+      <p>Franzi Roth</p>
+      <p>Jingxuan(Harper) Fan</p>
+      <p>Kenneth Liang</p>
+      <p>Kevin Liu</p>
+      <p>Mya Miller</p>
+      <p>Rasha Alswailem</p>
+      <p>Yu Masai</p>
+    </div>
+    </div>
+    <div class="w3-row-padding" id="fame2">
+    <div style="text-align: center">
+      <h3>Program Team</h3>
+      <p>Pichsinee Charnesthikul</p>
+      <p>Abdullah Albrahim</p>
+      <p></p>
+      <p>Alex Har</p>
+      <p>Joo Myung(Jennifer) Lee</p>
+      <p>Hannah Li</p>
+      <p>RongQian(Sisley) Zhang</p>
+      <p>Mayuko Yoshida</p>
+      <p>Foong Yan Lee</p>
+    </div>
+    </div>
+    <div class="w3-row-padding" id="fame2">
+    <div style="text-align: center">
+      <h3>Finance Team</h3>
+      <p>Raissa(Ray) Imandari</p>
+      <p>YaMeng(Mable) Wu</p>
+      <p>Caitie Mackie</p>
+      <p>Norah Alrasheed</p>
+      <p>Karen Senduk</p>
+    </div>
+    </div>
+
+    <div class="w3-row-padding" id="fame2">
+    <div style="text-align: center">
+      <h3>Outreach Team</h3>
+      <p>Freddy Gonzalez</p>
+      <p>Akinbosade Adedayo</p>
+      <p>Deanna Garcia</p>
+      <p>Nick Baraan</p>
+    </div>
+  </div>
+
+<div class="w3-row-padding" id="fame2">
+    <div style="text-align: center">
+      <h3>Office Team</h3>
+      <p>LuYing(Sarah) Qin</p>
+    </div>
+</div>
+<!-- Second Parallax Image with Portfolio Text -->
+
+
+<div class="w3-container w3-light-grey" style="padding:80px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Have Questions? Send us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Room 103B, 1228 University Street Eugene, OR 97403</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (541) 346-4387</p>
+      <p><a href="mailto:asuoisa@uoregon.edu"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i></a>Email: asuoisa@uoregon.edu</p>
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+      <div id="googleMap" style="width:100%; height:410px; "></div>
+      <script>
+//google map
+function myMap()
+{
+  // var myCenter=new google.maps.LatLng(44.044847, -123.073816);
+  // var mapOptions= {
+  //   center:myCenter,
+  //   zoom:17, scrollwheel: false, draggable: false,
+  //   mapTypeId:google.maps.MapTypeId.ROADMAP
+  // };
+  // console.log(mapOptions)
+  // var map=new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+
+  // var marker = new google.maps.Marker({
+  //   position: myCenter,
+  // });
+  // marker.setMap(map);
+
+  // The location of EMU
+  var emu = {lat: 44.044847, lng: -123.073816};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('googleMap'), {zoom: 17, center: emu, scrollwheel: false, draggable: false});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+
+}
+</script>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/InternationalDuck"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="http://instagram.com/uoisa"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="http://twitter.com/UOISA"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/3842228?trk=prof-exp-company-name"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>© University of Oregon International Student Association</p>
+</footer>
+ 
+<script>
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
